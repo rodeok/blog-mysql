@@ -1,0 +1,29 @@
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    gap: 20px;
+
+}
+.login-form input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.login-form button{
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
